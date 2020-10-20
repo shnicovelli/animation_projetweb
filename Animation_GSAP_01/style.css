@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.maison {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.base {
+  position: absolute;
+  top: 100px;
+  left: 350px;
+}
+
+.toit {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+
+.chemine {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+}

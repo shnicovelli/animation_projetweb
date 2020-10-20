@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ensemble {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.terre {
+  position: absolute;
+  top: 400px;
+  left: 350px;
+}
+
+.tombe {
+  position: absolute;
+  top: 200px;
+  left: 440px;
+}
+
+.texte {
+  color: white;
+  position: absolute;
+  top: 350px;
+  left: 550px;
+}
+
+.hirondelle {
+  position: absolute;
+  left: 550px;
+}
